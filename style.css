@@ -391,7 +391,7 @@
   
   /* * SERVICES */
   .services__container {
-    display: flexbox;
+    display: flex;
     gap: 6rem;
     margin-top: 2.5rem;
   }
