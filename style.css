@@ -157,7 +157,7 @@
     background: var(--color-gray-200);
     color: var(--color-gray-900);
     font-weight: 500;
-    display: inline-block;
+    display: flexbox;
     padding: 1rem 2.5rem;
     border-radius: var(--radius-3);
     width: fit-content;
@@ -310,10 +310,10 @@
   }
   
   .header-cta {
-    display: flex;
-    gap: 1.5rem;
+    display: grid;
+    gap: 5.5rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   
   
